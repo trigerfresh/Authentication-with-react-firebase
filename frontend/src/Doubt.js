@@ -43,10 +43,10 @@ const Doubt = () => {
 
     emailjs
       .sendForm(
-        'service_9uegp38',
-        'template_q7a6z1g',
-        form.current,
-        'jIpxRO-HQ2mvyqTr3'
+        'service_id',
+        'template_if',
+        form_email,
+        'Id'
       )
       .then(
         () => {
